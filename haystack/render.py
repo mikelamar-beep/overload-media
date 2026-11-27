@@ -84,7 +84,24 @@ def caption_png(scene, path):
             d.text((x, yy), text, font=font, fill=color)
         yy += step
     shadow = shadow.filter(ImageFilter.GaussianBlur(40))
-    Image.alpha_composite(shadow, img).save(path)
+    out = Image.alpha_composite(shadow, img)
+    if scene.get('pill', True):
+        out = Image.alpha_composite(out, search_pill())
+    out.save(path)
+
+
+def search_pill():
+    """Small 'App Store: Haystack Adventist Dating' tag shown on every scene.
+    Sits left of TikTok's right-hand buttons and above its caption area."""
+    layer = Image.new('RGBA', (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(layer)
+    f1, f2 = ImageFont.truetype(FONT['SemiBold'], 34), ImageFont.truetype(FONT['Bold'], 40)
+    a, b = 'App Store:  ', 'Haystack Adventist Dating'
+    tw = d.textlength(a, font=f1) + d.textlength(b, font=f2)
+    x0, y0 = 60, 1290
+    d.rounded_rectangle((x0, y0, x0 + tw + 64, y0 + 84), 42, fill=(251, 247, 239, 235))
+    d.text((x0 + 32, y0 + 24), a, font=f1, fill=(110, 110, 120))
+    d.text((x0 + 32 + d.textlength(a, font=f1), y0 + 19), b, font=f2, fill=NAVY)
+    return layer
 
 
 def end_card(path, line=None):
@@ -102,10 +119,14 @@ def end_card(path, line=None):
         for l in wrap(d, line, ImageFont.truetype(FONT['Medium'], 46), W - 200):
             center(l, ImageFont.truetype(FONT['Medium'], 46), y, CREAM); y += 60
         y += 30
-    f = ImageFont.truetype(FONT['Bold'], 50)
-    d.rounded_rectangle((110, y, W - 110, y + 190), 40, fill=GOLD)
-    center('Search “Haystack Adventist', f, y + 34, NAVY)
-    center('Dating” on the App Store', f, y + 102, NAVY)
+    center('Free on the App Store. Search:', ImageFont.truetype(FONT['SemiBold'], 46), y, GOLD); y += 80
+    d.rounded_rectangle((90, y, W - 90, y + 130), 34, fill=(238, 238, 242))
+    cx, cy = 160, y + 62   # magnifying glass
+    d.ellipse((cx - 24, cy - 24, cx + 16, cy + 16), outline=(120, 120, 130), width=7)
+    d.line((cx + 12, cy + 12, cx + 34, cy + 34), fill=(120, 120, 130), width=8)
+    f = ImageFont.truetype(FONT['Bold'], 54)
+    d.text((215, y + 33), 'Haystack Adventist Dating', font=f, fill=(20, 20, 30))
+    d.rectangle((215 + d.textlength('Haystack Adventist Dating', font=f) + 8, y + 30, 215 + d.textlength('Haystack Adventist Dating', font=f) + 13, y + 100), fill=(0, 122, 255))
     img.save(path)
 
 

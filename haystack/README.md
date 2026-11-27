@@ -19,6 +19,7 @@ One video a day to both Haystack channels: Sun–Thu 7:30 PM, Friday 12:30 PM (b
 - Only describe features that exist (check the app repo's CLAUDE.md). Sabbath Mode (app pause) was removed Nov 2026: don't mention the app resting on Sabbath.
 - Footage: no alcohol, kissing, meat dishes, jewelry close-ups, or other-faith imagery. Use clips from `library.json`; add new Mixkit clips only after checking a frame of each.
 - On-screen text has no emoji (the font can't draw them); emoji are fine in captions.
-- TikTok caption ends with: Search "Haystack Adventist Dating" on the App Store + 5 hashtags.
+- TikTok has no clickable links (no Website field until the account is verified or hits 1,000 followers), so every video drives App Store search: render.py puts an "App Store: Haystack Adventist Dating" tag on every scene and the end card shows the phrase typed in an App Store search bar. Keep the phrase exactly "Haystack Adventist Dating" (matches the App Store title).
+- TikTok caption format: (1) hook with a question or "tag a friend" to drive comments, (2) one line with search keywords ("Adventist dating app", "SDA singles", "Seventh-day Adventist"), (3) the line 👉 Free on the App Store: search "Haystack Adventist Dating", (4) 5 hashtags starting with #sdasingles #adventist. No URLs.
 - Facebook caption ends with "link in the comments 👇"; the first comment carries the App Store link.
 - New batches are 10 videos and need Mike's approval before posting (`approved` stays false until he says go).
