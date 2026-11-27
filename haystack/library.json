@@ -1,0 +1,15 @@
+{
+  "_note": "Mixkit stock clips (free license, no attribution needed), vetted for Haystack: no alcohol, no kissing (46805 and 4829 have kisses), no meat dishes, no clearly Catholic/other-faith imagery. Download URL: https://assets.mixkit.co/videos/<id>/<id>-720.mp4",
+  "clips": {
+    "sunset":  [44495, 4664, 48410, 4205, 40657],
+    "couple":  [4530, 4661, 4624, 45857, 41581, 44495],
+    "older":   [4764, 21632],
+    "wedding": [40593, 40596, 40599, 5204],
+    "bible":   [48607, 22192, 15863, 48163, 24172, 23255],
+    "church":  [12587, 5901]
+  },
+  "music": {
+    "_note": "Mixkit free music: https://assets.mixkit.co/music/<id>/<id>.mp3",
+    "tracks": [657, 659, 292, 114, 655, 444, 1081, 616, 16, 127]
+  }
+}
