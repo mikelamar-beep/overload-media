@@ -1,0 +1,500 @@
+{
+ "batch": 2,
+ "app_store_url": "https://apps.apple.com/app/id6834923496",
+ "post_time": "18:30",
+ "timezone": "America/New_York",
+ "approved": false,
+ "videos": [
+  {
+   "id": "pr-shot",
+   "date": "2026-12-05",
+   "music": "09-chest-day",
+   "hook": {
+    "text": [
+     "Your PR target,",
+     "picked for you."
+    ],
+    "clips": [
+     {
+      "id": "52091",
+      "t": 6.5,
+      "x": 0.5
+     },
+     {
+      "id": "52084",
+      "t": 12,
+      "x": 0.5
+     },
+     {
+      "id": "52082",
+      "t": 4.0
+     }
+    ]
+   },
+   "screens": [
+    {
+     "img": "prshot/01.png",
+     "y": 0,
+     "text": [
+      "Today's PR shot:",
+      "190 × 9 on bench."
+     ]
+    },
+    {
+     "img": "prshot/02.png",
+     "y": 700,
+     "text": [
+      "One tap",
+      "loads it in."
+     ],
+     "dur": 2.6
+    },
+    {
+     "img": "prshot/03.png",
+     "y": 190,
+     "text": [
+      "Hit it.",
+      "New best."
+     ],
+     "dur": 2.6
+    }
+   ],
+   "tiktok": "Every workout, Overload finds the lift where a new PR is closest and tells you exactly what beats it. Search \"Overload Gym\" on the App Store. #gymtok #newpr #progressiveoverload #benchpress #gains",
+   "facebook": "Every workout, Overload finds the lift where a new PR is closest and shows you exactly what beats it. One tap loads it into your next set.\n\nFree on the App Store: https://apps.apple.com/app/id6834923496\n\n#newpr #progressiveoverload #benchpress"
+  },
+  {
+   "id": "finish-on-time",
+   "date": "2026-12-06",
+   "music": "02-swap",
+   "hook": {
+    "text": [
+     "45 minutes means",
+     "45 minutes."
+    ],
+    "clips": [
+     {
+      "id": "52089",
+      "t": 7.5,
+      "x": 0.38
+     },
+     {
+      "id": "52079",
+      "t": 1.0
+     },
+     {
+      "id": "52097",
+      "t": 6.5,
+      "x": 0.55
+     }
+    ]
+   },
+   "screens": [
+    {
+     "img": "time/01.png",
+     "y": 900,
+     "text": [
+      "Pick your time.",
+      "20 min to 2 hours."
+     ],
+     "dur": 2.8
+    },
+    {
+     "img": "time/02.png",
+     "y": 0,
+     "text": [
+      "It learns your pace",
+      "and builds to fit."
+     ],
+     "dur": 3.2
+    }
+   ],
+   "tiktok": "Overload learns how fast you actually train and builds every workout to land on the time you picked. Search \"Overload Gym\" on the App Store. #gymtok #quickworkout #workoutplan #gymtips #bodybuilding",
+   "facebook": "Overload learns how fast you actually train and builds every workout to land on the time you picked, with a live finish time while you lift.\n\nFree on the App Store: https://apps.apple.com/app/id6834923496\n\n#quickworkout #workoutplan #gymtips"
+  },
+  {
+   "id": "training-blocks",
+   "date": "2026-12-07",
+   "music": "06-back-day-1hr",
+   "hook": {
+    "text": [
+     "Same lifts. 5 weeks.",
+     "Watch them climb."
+    ],
+    "clips": [
+     {
+      "id": "52082",
+      "t": 4.0
+     },
+     {
+      "id": "52091",
+      "t": 6.5,
+      "x": 0.5
+     },
+     {
+      "id": "52315",
+      "t": 6,
+      "x": 0.55
+     }
+    ]
+   },
+   "screens": [
+    {
+     "img": "block/01.png",
+     "y": 0,
+     "text": [
+      "Your anchor lifts",
+      "stay all block."
+     ],
+     "dur": 2.8
+    },
+    {
+     "img": "block/02.png",
+     "y": 0,
+     "text": [
+      "Bench every chest day.",
+      "Heavier every week."
+     ],
+     "dur": 2.8
+    },
+    {
+     "img": "block/03.png",
+     "y": 0,
+     "text": [
+      "Block done?",
+      "Keep them or switch."
+     ],
+     "dur": 2.6
+    }
+   ],
+   "tiktok": "Overload runs 5-week training blocks: your main lift for each muscle stays put so the numbers can climb week after week. Search \"Overload Gym\" on the App Store. #gymtok #progressiveoverload #strengthtraining #bodybuilding #gains",
+   "facebook": "Overload runs 5-week training blocks. Your main lift for each muscle stays put, so the numbers climb week after week instead of starting over.\n\nFree on the App Store: https://apps.apple.com/app/id6834923496\n\n#progressiveoverload #strengthtraining #bodybuilding"
+  },
+  {
+   "id": "plateau-fix",
+   "date": "2026-12-08",
+   "music": "05-pr-card",
+   "hook": {
+    "text": [
+     "Stuck on the",
+     "same bench weight?"
+    ],
+    "clips": [
+     {
+      "id": "52084",
+      "t": 12,
+      "x": 0.5
+     },
+     {
+      "id": "52316",
+      "t": 7.5,
+      "x": 0.5
+     },
+     {
+      "id": "52091",
+      "t": 6.5,
+      "x": 0.5
+     }
+    ]
+   },
+   "screens": [
+    {
+     "img": "plateau/01.png",
+     "y": 0,
+     "text": [
+      "Overload spots",
+      "the stall."
+     ],
+     "dur": 3.0
+    },
+    {
+     "img": "plateau/02.png",
+     "y": 0,
+     "text": [
+      "Drop to 90%.",
+      "Build back past it."
+     ],
+     "dur": 3.0
+    }
+   ],
+   "tiktok": "Three sessions without a new best? Overload flags the plateau and gives you the fix: reset to 90% or switch the variation. Search \"Overload Gym\" on the App Store. #gymtok #plateau #benchpress #progressiveoverload #gymtips",
+   "facebook": "Three sessions without a new best? Overload flags the plateau and gives you the fix: reset to 90% and build back up, or switch to a close variation.\n\nFree on the App Store: https://apps.apple.com/app/id6834923496\n\n#plateau #benchpress #gymtips"
+  },
+  {
+   "id": "bonus-set",
+   "date": "2026-12-09",
+   "music": "01-arms-day",
+   "hook": {
+    "text": [
+     "Last set felt",
+     "too easy?"
+    ],
+    "clips": [
+     {
+      "id": "52097",
+      "t": 6.5,
+      "x": 0.55
+     },
+     {
+      "id": "52082",
+      "t": 4.0
+     },
+     {
+      "id": "52089",
+      "t": 7.5,
+      "x": 0.38
+     }
+    ]
+   },
+   "screens": [
+    {
+     "img": "bonus/01.png",
+     "y": 150,
+     "text": [
+      "11 reps on a",
+      "5–8 rep set…"
+     ],
+     "dur": 2.8
+    },
+    {
+     "img": "bonus/02.png",
+     "y": 150,
+     "text": [
+      "Overload Pro adds",
+      "a bonus set."
+     ],
+     "dur": 3.0
+    }
+   ],
+   "tiktok": "Blow past your rep range and Overload Pro adds a bonus set on the spot. Leave nothing in the tank. Search \"Overload Gym\" on the App Store. #gymtok #hypertrophy #bodybuilding #workoutplan #gains",
+   "facebook": "Blow past your rep range and Overload Pro adds a bonus set on the spot, so a great day turns into growth.\n\nFree on the App Store: https://apps.apple.com/app/id6834923496\n\n#hypertrophy #bodybuilding #workoutplan"
+  },
+  {
+   "id": "pr-streak",
+   "date": "2026-12-10",
+   "music": "10-recovery",
+   "hook": {
+    "text": [
+     "A PR every week.",
+     "4 weeks straight."
+    ],
+    "clips": [
+     {
+      "id": "52315",
+      "t": 6,
+      "x": 0.55
+     },
+     {
+      "id": "52091",
+      "t": 6.5,
+      "x": 0.5
+     },
+     {
+      "id": "52079",
+      "t": 1.0
+     }
+    ]
+   },
+   "screens": [
+    {
+     "img": "streak/01.png",
+     "y": 0,
+     "text": [
+      "Weekly PR:",
+      "done."
+     ],
+     "dur": 2.8
+    },
+    {
+     "img": "streak/02.png",
+     "y": 0,
+     "text": [
+      "Keep the",
+      "streak alive."
+     ],
+     "dur": 2.8
+    }
+   ],
+   "tiktok": "Overload tracks your weekly PR streak and builds a PR shot into every workout so you can keep it going. Search \"Overload Gym\" on the App Store. #gymtok #newpr #gymmotivation #progressiveoverload #gains",
+   "facebook": "Overload tracks your weekly PR streak and builds a PR shot into every workout so you can keep it going.\n\nFree on the App Store: https://apps.apple.com/app/id6834923496\n\n#newpr #gymmotivation #progressiveoverload"
+  },
+  {
+   "id": "growth-check",
+   "date": "2026-12-11",
+   "music": "04-shoulder-day",
+   "hook": {
+    "text": [
+     "Is your chest",
+     "actually growing?"
+    ],
+    "clips": [
+     {
+      "id": "52084",
+      "t": 12,
+      "x": 0.5
+     },
+     {
+      "id": "52097",
+      "t": 6.5,
+      "x": 0.55
+     },
+     {
+      "id": "52082",
+      "t": 4.0
+     }
+    ]
+   },
+   "screens": [
+    {
+     "img": "growth/01.png",
+     "y": 330,
+     "text": [
+      "Growth check:",
+      "every muscle, every week."
+     ],
+     "dur": 4.0
+    }
+   ],
+   "tiktok": "Overload's growth check shows which muscles are getting stronger and how many sets each one got. Search \"Overload Gym\" on the App Store. #gymtok #hypertrophy #musclegrowth #bodybuilding #progressiveoverload",
+   "facebook": "Overload's growth check shows which muscles are getting stronger and how many sets each one got this week.\n\nFree on the App Store: https://apps.apple.com/app/id6834923496\n\n#hypertrophy #musclegrowth #bodybuilding"
+  },
+  {
+   "id": "recovery",
+   "date": "2026-12-12",
+   "music": "08-progress",
+   "hook": {
+    "text": [
+     "Train what's ready,",
+     "not what's sore."
+    ],
+    "clips": [
+     {
+      "id": "52316",
+      "t": 7.5,
+      "x": 0.5
+     },
+     {
+      "id": "52089",
+      "t": 7.5,
+      "x": 0.38
+     },
+     {
+      "id": "52091",
+      "t": 6.5,
+      "x": 0.5
+     }
+    ]
+   },
+   "screens": [
+    {
+     "img": "recovery/01.png",
+     "y": 450,
+     "text": [
+      "Recovery by muscle,",
+      "from your real sets."
+     ],
+     "dur": 3.0
+    },
+    {
+     "img": "recovery/02.png",
+     "y": 0,
+     "text": [
+      "Know when it's",
+      "ready again."
+     ],
+     "dur": 2.8
+    }
+   ],
+   "tiktok": "Overload tracks recovery for every muscle from what you actually lifted, how hard, and how heavy. Search \"Overload Gym\" on the App Store. #gymtok #recovery #bodybuilding #workoutplan #gymtips",
+   "facebook": "Overload tracks recovery for every muscle from what you actually lifted, how hard, and how heavy, then tells you when it's ready again.\n\nFree on the App Store: https://apps.apple.com/app/id6834923496\n\n#recovery #bodybuilding #gymtips"
+  },
+  {
+   "id": "rest-pause",
+   "date": "2026-12-13",
+   "music": "03-thanksgiving-20-min",
+   "hook": {
+    "text": [
+     "Phone call",
+     "mid-rest?"
+    ],
+    "clips": [
+     {
+      "id": "52079",
+      "t": 1.0
+     },
+     {
+      "id": "52315",
+      "t": 6,
+      "x": 0.55
+     },
+     {
+      "id": "52084",
+      "t": 12,
+      "x": 0.5
+     }
+    ]
+   },
+   "screens": [
+    {
+     "img": "rest/01.png",
+     "y": 210,
+     "text": [
+      "Rest timer",
+      "built in."
+     ],
+     "dur": 2.6
+    },
+    {
+     "img": "rest/02.png",
+     "y": 210,
+     "text": [
+      "Tap to pause.",
+      "Tap to pick back up."
+     ],
+     "dur": 3.0
+    }
+   ],
+   "tiktok": "Overload's rest timer pauses with a tap, adds or cuts 15 seconds, and pings you when it's time. Search \"Overload Gym\" on the App Store. #gymtok #gymtips #restday #workoutplan #gymlife",
+   "facebook": "Overload's rest timer pauses with a tap, adds or cuts 15 seconds, and pings your lock screen when it's time for the next set.\n\nFree on the App Store: https://apps.apple.com/app/id6834923496\n\n#gymtips #workoutplan #gymlife"
+  },
+  {
+   "id": "smart-reminders",
+   "date": "2026-12-14",
+   "music": "07-warm-ups",
+   "hook": {
+    "text": [
+     "Already trained today?",
+     "No reminder."
+    ],
+    "clips": [
+     {
+      "id": "52091",
+      "t": 6.5,
+      "x": 0.5
+     },
+     {
+      "id": "52082",
+      "t": 4.0
+     },
+     {
+      "id": "52316",
+      "t": 7.5,
+      "x": 0.5
+     }
+    ]
+   },
+   "screens": [
+    {
+     "img": "remind/01.png",
+     "y": 0,
+     "text": [
+      "Reminders on your days,",
+      "skipped when you've lifted."
+     ],
+     "dur": 3.6
+    }
+   ],
+   "tiktok": "Overload reminds you on your training days, skips the reminder when you've already lifted, and nudges you if you miss a few. Search \"Overload Gym\" on the App Store. #gymtok #gymmotivation #consistency #workoutplan #fitness",
+   "facebook": "Overload reminds you on your training days, skips it when you've already lifted, and nudges you if you miss a few days or your PR streak is on the line.\n\nFree on the App Store: https://apps.apple.com/app/id6834923496\n\n#gymmotivation #consistency #workoutplan"
+  }
+ ]
+}
